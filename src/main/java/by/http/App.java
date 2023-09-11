@@ -67,7 +67,6 @@ public class App {
         myArrayList.set(2, 500);
         System.out.println("Replacing element at index 1: " + myArrayList);
 
-        //Замена первого элемента на последний
         int lastIndex = myArrayList.size() - 1;
         int temp = myArrayList.get(0);
         myArrayList.set(0, myArrayList.get(lastIndex));
