@@ -2,7 +2,7 @@ package by.http;
 
 /**
  * @author Tatsiana Kobets
- *This is the List of Lists entity.
+ * This is the List of Lists entity.
  * Displays the name of the list (what exactly happened to the ArrayList) and the length of the current list.
  */
 public class List implements Comparable<List> {
