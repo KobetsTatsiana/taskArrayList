@@ -24,25 +24,30 @@ public class MethodsOfWorkingWithArrayList {
     }
 
     /**
-     * adding a random value (range from 0 to 100) to the end of the list
+     * adding a value to the end of the list
      */
-    public void addedARandomElementToTheEndOfTheList() {
-        myArrayList.add(newRandomNumber_Math);
-        System.out.println("Added a random element to the end of the list: " + myArrayList);
+    public void addedElementToTheEndOfTheList() {
+        myArrayList.add(1000);
+        System.out.println("Added element (1000) to the end of the list: " + myArrayList);
     }
 
     /**
-     * adding a random value (range from 0 to 100) to the list as the second element
+     * adding value to the list as the Second element
      */
-    public void addedRandomElementAtIndexOne() {
-        myArrayList.add(1, newRandomNumber_Math);
-        System.out.println("Added random element at index 1: " + myArrayList);
+    public void addedElementAtIndexOne() {
+        myArrayList.add(5);
+        System.out.println("\nBefore adding: " + myArrayList);
+        myArrayList.add(1, 7);
+        System.out.println("Added element 7 at index 1: " + myArrayList);
     }
 
     /**
      * getting an element at index 2 (third element of the list)
      */
     public void gettingElementAtIndexTwo() {
+        myArrayList.add(5);
+        myArrayList.add(5);
+        myArrayList.add(4);
         int getElementByIndex = myArrayList.get(2);
         System.out.println("Getting element at index 2: " + getElementByIndex);
     }
@@ -51,14 +56,23 @@ public class MethodsOfWorkingWithArrayList {
      * replacing the element at index 1 (we change the second element of the list to the value 500)
      */
     public void replacingElementAtIndexOne() {
+        myArrayList.add(5);
+        myArrayList.add(5);
+        myArrayList.add(4);
+        System.out.println("\nBefore replacement : " + myArrayList);
         myArrayList.set(1, 500);
-        System.out.println("Replacing element at index 1: " + myArrayList);
+        System.out.println("Replacing element at index 1 on 500: " + myArrayList);
     }
 
     /**
      * replacing the first element with the last one
      */
     public void replacingTheFirstElementWithTheLast() {
+        myArrayList.add(0);
+        myArrayList.add(1);
+        myArrayList.add(2);
+        System.out.println("\nBefore replacement : " + myArrayList);
+
         int lastIndex = myArrayList.size() - 1;
         int temp = myArrayList.get(0);
         myArrayList.set(0, myArrayList.get(lastIndex));
@@ -70,6 +84,10 @@ public class MethodsOfWorkingWithArrayList {
      * deleting element at index 2 (third element of the list)
      */
     public void removeElementAtIndexTwo() {
+        myArrayList.add(0);
+        myArrayList.add(1);
+        myArrayList.add(2);
+        myArrayList.add(3);
         myArrayList.remove(2);
         System.out.println("Remove element at index 2: " + myArrayList);
     }
@@ -78,17 +96,25 @@ public class MethodsOfWorkingWithArrayList {
      * quick sort
      */
     public void quickListSorting() {
+        myArrayList.add(5);
+        myArrayList.add(2);
+        myArrayList.add(9);
+        myArrayList.add(1);
+        myArrayList.add(4);
+        System.out.println("\nBefore quick sort : " + myArrayList);
+
         quickSort(myArrayList, 0, myArrayList.size() - 1);
         for (int i = 0; i < myArrayList.size(); i++) {
             myArrayList.get(i);
         }
-        System.out.println("Quick list sorting: " + myArrayList);
+        System.out.println("\nQuick list sorting: " + myArrayList);
     }
 
     /**
      * sort Ascending and sorting in descending order
      */
     public void sorting() {
+        ArrayList<Integer> myArrayList = new ArrayList<>(Arrays.asList(5, 2, 8, 1, 9));
         Collections.sort(myArrayList);
         System.out.println("Sort Ascending: " + myArrayList);
         Collections.reverse(myArrayList);
@@ -132,6 +158,7 @@ public class MethodsOfWorkingWithArrayList {
     public ArrayList<Integer> getMyArrayList() {
         return myArrayList;
     }
+
 }
 
 

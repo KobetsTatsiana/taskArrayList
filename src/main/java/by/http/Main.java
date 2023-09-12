@@ -7,8 +7,8 @@ public class Main {
         MethodsOfWorkingWithArrayList methodsOfWorkingWithArrayList = new MethodsOfWorkingWithArrayList();
 
         methodsOfWorkingWithArrayList.createdArrayList();
-        methodsOfWorkingWithArrayList.addedARandomElementToTheEndOfTheList();
-        methodsOfWorkingWithArrayList.addedRandomElementAtIndexOne();
+        methodsOfWorkingWithArrayList.addedElementToTheEndOfTheList();
+        methodsOfWorkingWithArrayList.addedElementAtIndexOne();
         methodsOfWorkingWithArrayList.gettingElementAtIndexTwo();
         methodsOfWorkingWithArrayList.replacingElementAtIndexOne();
         methodsOfWorkingWithArrayList.replacingTheFirstElementWithTheLast();
