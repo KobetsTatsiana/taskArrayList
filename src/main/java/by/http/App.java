@@ -5,8 +5,9 @@ import java.util.*;
 import static by.http.QuickSort.quickSort;
 
 /**
+ * Training class using randomness and exception handling
  * @author Tatsiana Kobets
- * Main class.
+ *
  * 1. User input number, size of initial list
  * + exception handling for incorrect data entry.
  * 2. Filling a list of specified length with random values (range from 0 to 100).
@@ -95,10 +96,10 @@ public class App {
             System.out.println(list);
         }
 
-        Comparator<List> bySizeList = Comparator.comparing(List::getSizeList);
-        Collections.sort(lists, bySizeList);
+        Comparator<List> byNameList = Comparator.comparing(List::getNameList);
+        Collections.sort(lists, byNameList);
         for (List list : lists) {
-            System.out.println("Sorting using Comparator (по bySizeList):" + list);
+            System.out.println("Sorting using Comparator (по byNameList):" + list);
         }
 
         myArrayList.removeAll(myArrayList);

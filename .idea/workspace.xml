@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e7ad90c-b365-4843-9b5b-d4d5c3fee452" name="Changes" comment="Created Testing the method for creating an ArrayList">
+    <list default="true" id="2e7ad90c-b365-4843-9b5b-d4d5c3fee452" name="Changes" comment="All tests completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/http/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/http/MyArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/http/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/http/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/http/MyArrayListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyArrayListTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MyArrayListTest.testRemoveElementAtIndexTwo" />
         <item itemvalue="JUnit.MyArrayListTest.testDeleteEntireCollection" />
         <item itemvalue="JUnit.MyArrayListTest.testSorting" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +158,7 @@
       <workItem from="1694464431722" duration="3270000" />
       <workItem from="1694497350603" duration="11937000" />
       <workItem from="1694510006524" duration="11009000" />
-      <workItem from="1694544044198" duration="2601000" />
+      <workItem from="1694544044198" duration="3277000" />
     </task>
     <task id="LOCAL-00001" summary="Created class Quick sort and App class modified.">
       <created>1694467272168</created>
@@ -191,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694504630671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All tests completed">
+      <created>1694546758925</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694546758926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +218,7 @@
     <MESSAGE value="App class modified." />
     <MESSAGE value="The main class and a class with methods for working with ArrayList have been created." />
     <MESSAGE value="Created Testing the method for creating an ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Testing the method for creating an ArrayList" />
+    <MESSAGE value="All tests completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tests completed" />
   </component>
 </project>

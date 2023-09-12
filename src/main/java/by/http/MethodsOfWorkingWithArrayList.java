@@ -107,7 +107,7 @@ public class MethodsOfWorkingWithArrayList {
         for (int i = 0; i < myArrayList.size(); i++) {
             myArrayList.get(i);
         }
-        System.out.println("\nQuick list sorting: " + myArrayList);
+        System.out.println("Quick list sorting: " + myArrayList);
     }
 
     /**
@@ -116,7 +116,7 @@ public class MethodsOfWorkingWithArrayList {
     public void sorting() {
         ArrayList<Integer> myArrayList = new ArrayList<>(Arrays.asList(5, 2, 8, 1, 9));
         Collections.sort(myArrayList);
-        System.out.println("Sort Ascending: " + myArrayList);
+        System.out.println("\nSort Ascending: " + myArrayList);
         Collections.reverse(myArrayList);
         System.out.println("Sort in descending order: " + myArrayList);
     }
@@ -135,15 +135,16 @@ public class MethodsOfWorkingWithArrayList {
         lists.add(new List("Remove element at index 2", myArrayList.size()));
 
         Collections.sort(lists);
-        System.out.print("Sorting using Comparable: ");
+        System.out.print("Sorting using Comparable: \n");
         for (List list : lists) {
             System.out.println(list);
         }
 
-        Comparator<List> bySizeList = Comparator.comparing(List::getSizeList);
-        Collections.sort(lists, bySizeList);
+        Comparator<List> byNameList = Comparator.comparing(List::getNameList);
+        Collections.sort(lists, byNameList);
+        System.out.print("Sorting using Comparator (по byNameList): \n");
         for (List list : lists) {
-            System.out.println("Sorting using Comparator (по bySizeList):" + list);
+            System.out.println(list);
         }
     }
 
