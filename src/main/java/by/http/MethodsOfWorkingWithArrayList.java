@@ -128,6 +128,10 @@ public class MethodsOfWorkingWithArrayList {
         myArrayList.removeAll(myArrayList);
         System.out.println("Delete entire collection:)");
     }
+
+    public ArrayList<Integer> getMyArrayList() {
+        return myArrayList;
+    }
 }
 
 

@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e7ad90c-b365-4843-9b5b-d4d5c3fee452" name="Changes" comment="The main class and a class with methods for working with ArrayList have been created.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/http/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/http/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/http/List.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/http/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/by/http/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/http/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/QuickSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
     "last_opened_file_path": "D:/ASTON/aston"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MyArrayListTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.http.App" />
       <module name="taskArrayList" />
@@ -83,8 +76,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.http" />
+      <option name="MAIN_CLASS_NAME" value="by.http.MyArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyArrayListTest.testCreatedArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taskArrayList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.http" />
+      <option name="MAIN_CLASS_NAME" value="by.http.MyArrayListTest" />
+      <option name="METHOD_NAME" value="testCreatedArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArrayListTest" />
+        <item itemvalue="JUnit.MyArrayListTest.testCreatedArrayList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.by.http.App" />
       </list>
@@ -99,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694464430179</updated>
       <workItem from="1694464431722" duration="3270000" />
-      <workItem from="1694497350603" duration="4916000" />
+      <workItem from="1694497350603" duration="6571000" />
     </task>
     <task id="LOCAL-00001" summary="Created class Quick sort and App class modified.">
       <created>1694467272168</created>
@@ -115,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694467497050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The main class and a class with methods for working with ArrayList have been created.">
+      <created>1694502729353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694502729353</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
