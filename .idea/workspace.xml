@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e7ad90c-b365-4843-9b5b-d4d5c3fee452" name="Changes" comment="All tests completed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/http/MethodsOfWorkingWithArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/MethodsOfWorkingWithArrayList.class" afterDir="false" />
+    <list default="true" id="2e7ad90c-b365-4843-9b5b-d4d5c3fee452" name="Changes" comment="Ok">
+      <change beforePath="$PROJECT_DIR$/target/classes/by/http/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/http/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +155,7 @@
       <workItem from="1694464431722" duration="3270000" />
       <workItem from="1694497350603" duration="11937000" />
       <workItem from="1694510006524" duration="11009000" />
-      <workItem from="1694544044198" duration="3277000" />
+      <workItem from="1694544044198" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="Created class Quick sort and App class modified.">
       <created>1694467272168</created>
@@ -195,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694546758926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ok">
+      <created>1694547471969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547471969</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ok">
+      <created>1694547486333</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547486333</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ok">
+      <created>1694547498113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694547498113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +237,7 @@
     <MESSAGE value="The main class and a class with methods for working with ArrayList have been created." />
     <MESSAGE value="Created Testing the method for creating an ArrayList" />
     <MESSAGE value="All tests completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="All tests completed" />
+    <MESSAGE value="Ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ok" />
   </component>
 </project>
