@@ -19,7 +19,7 @@ import static by.http.QuickSort.quickSort;
  * - replacing the first element with the last one;
  * - deleting element at index 2 (third element of the list);
  * - quick sort;
- * - Sort Ascending;
+ * - sort Ascending;
  * - sorting in descending order;
  * - built-in sorting using Comparable;
  * - external sorting using Comparator;

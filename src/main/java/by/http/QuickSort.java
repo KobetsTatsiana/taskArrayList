@@ -15,11 +15,20 @@ import java.util.ArrayList;
 public class QuickSort {
 
     public static void quickSort(ArrayList<Integer> myArrayList, int low, int high) {
+        /**
+         * terminate if the array is empty or there is nothing left to divide
+         */
         if (myArrayList.size() == 0 || low >= high) return;
 
+        /**
+         * * select the support element
+         */
         int middle = low + (high - low) / 2;
         int border = myArrayList.get(middle);
 
+        /**
+         * divide into subarrays and swap places
+         */
         int i = low, j = high;
         while (i <= j) {
             while (myArrayList.get(i) < border) i++;
@@ -33,6 +42,9 @@ public class QuickSort {
             }
         }
 
+        /**
+         * recursion to sort left and right side
+         */
         if (low < j) quickSort(myArrayList, low, j);
         if (high > i) quickSort(myArrayList, i, high);
     }
