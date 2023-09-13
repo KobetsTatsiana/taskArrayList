@@ -3,9 +3,9 @@ package by.http;
 import java.util.Arrays;
 
 /**
+ * @param <T>
  * @author Tatsiana Kobets
  * The class provides an implementation of its own ArrayList and methods for working with it.
- * @param <T>
  */
 public class MyArrayList<T> {
     private static final int STARTING_SIZE = 5;
@@ -76,12 +76,12 @@ public class MyArrayList<T> {
      * The Arrays.copyOf method creates a new data array "data" with a new capacity "newCapacity"
      * and copies all elements from the current data array into it.
      */
-    private void add() {
+   /* private void add() {
         if (size == data.length) {
             int newCapacity = data.length * 2;
             data = Arrays.copyOf(data, newCapacity);
         }
-    }
+    }*/
 
     /**
      * We get an element from the list at a given index.
@@ -151,11 +151,12 @@ public class MyArrayList<T> {
     /**
      * Getting a string with the contents of the "data" array up to the "size" index as an array,
      * enclosed in square brackets and separated by commas
-     *
-     * @return Arrays.toString() converts this new array to a string,
+     * Arrays.toString() converts this new array to a string,
      * Arrays.copyOf(data, size) creates a new array by copying elements from the data array,
      * but only the first size elements. That is, it creates a new array containing
      * only elements with indexes from 0 to size-1 from the data array.
+     *
+     * @return
      */
     @Override
     public String toString() {
