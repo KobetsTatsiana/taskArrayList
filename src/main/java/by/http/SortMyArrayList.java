@@ -3,9 +3,9 @@ package by.http;
 import java.util.Arrays;
 
 /**
+ * @param <E>
  * @author Tatsiana Kobets
  * The class provides many methods for working with the array and sorting it.
- * @param <E>
  */
 public class SortMyArrayList<E extends Comparable<E>> {
     private static final int INITIAL_CAPACITY = 10;
@@ -22,7 +22,7 @@ public class SortMyArrayList<E extends Comparable<E>> {
     }
 
     /**
-     * Метод для добавления элемента в массив.
+     * Method for adding an element to an array.
      *
      * @param element
      */
