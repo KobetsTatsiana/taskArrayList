@@ -66,24 +66,6 @@ public class MyArrayList<T> {
     }
 
     /**
-     * Private method add
-     * Declaration of a private method that is intended for testing and,
-     * if necessary, increase the capacity of the list.
-     * We check whether the current size of the list "size")" is equal to its capacity "data.length".
-     * If this condition is met, it means that the list is full and its size needs to be increased.
-     * If the current size is full, then we calculate the new capacity by doubling the current value.
-     * Increasing list capacity.
-     * The Arrays.copyOf method creates a new data array "data" with a new capacity "newCapacity"
-     * and copies all elements from the current data array into it.
-     */
-   /* private void add() {
-        if (size == data.length) {
-            int newCapacity = data.length * 2;
-            data = Arrays.copyOf(data, newCapacity);
-        }
-    }*/
-
-    /**
      * We get an element from the list at a given index.
      * Check if the index value is within the acceptable range. If the index is less than zero or
      * is greater than or equal to the current size of the list, then an IndexOutOfBoundsException is thrown.
@@ -96,7 +78,7 @@ public class MyArrayList<T> {
 
     public T get(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Индекс вне диапазона");
+            throw new IndexOutOfBoundsException("Index out of range");
         }
         return (T) data[index];
     }
@@ -111,9 +93,27 @@ public class MyArrayList<T> {
      */
     public void set(int index, T element) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Индекс вне диапазона");
+            throw new IndexOutOfBoundsException("Index out of range");
         }
         data[index] = element;
+    }
+
+    /**
+     * Add an element by index.
+     * Increase the array size if necessary.
+     * Shift elements to the right, starting from the end of the array.
+     * Insert an element at the specified index
+     */
+    public void addingElementByIndex(int index, T element) {
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException("Invalid index: " + index);
+        }
+        ensureCapacity();
+        for (int i = size; i > index; i--) {
+            data[i] = data[i - 1];
+        }
+        data[index] = element;
+        size++;
     }
 
     /**
@@ -127,7 +127,7 @@ public class MyArrayList<T> {
      */
     public void remove(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Индекс вне диапазона");
+            throw new IndexOutOfBoundsException("Index out of range");
         }
         System.arraycopy(data, index + 1, data, index, size - index - 1);
         size--;

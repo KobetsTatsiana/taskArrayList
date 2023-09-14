@@ -61,6 +61,18 @@ public class MyArrayListTest {
     }
 
     @Test
+    public void addingElementByIndex() {
+        myArrayList.add(3);
+        myArrayList.add(7);
+        myArrayList.add(3);
+        myArrayList.add(9);
+        myArrayList.addingElementByIndex(3,500);
+        assertEquals(500, myArrayList.get(3));
+        assertEquals(5, myArrayList.size());
+        assertEquals(9, myArrayList.get(4));
+    }
+
+    @Test
     public void testRemove() {
         myArrayList.add(5);
         myArrayList.add(35);

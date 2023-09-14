@@ -27,6 +27,10 @@ public class Main {
 
         System.out.println("Getting element at index 2: " + myArrayList.get(2));
 
+        myArrayList.addingElementByIndex(3, 500);
+        System.out.println("Adding an element 500 by index 3: " + myArrayList);
+
+
         myArrayList.remove(2);
         System.out.println("Remove element at index 2: " + myArrayList);
 
